@@ -1,0 +1,169 @@
+/*
+Theme Name:   twentyeleven-sosolar 
+Theme URI:   http://abelgs.blogspot.com/2013/04/wordpress-child-theme.html#more
+Description:  Child theme for the Twenty Eleven design 
+Author:     Abel Guzman Sanchez 
+Author URI:   https://plus.google.com/u/0/116095396075951868976/posts 
+Template:    twentyeleven 
+Version:    0.1 
+*/
+
+ @import url("../twentyeleven/style.css");
+/* General */
+body, input, textarea {
+	font: 15px "Century Gothic", "New Century Schoolbook", serif;
+}
+body {
+	padding: 0px;
+}
+/*=Background*/
+body {
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background: #999999; /* Old browsers */
+		width: 100%;
+}
+
+/*Page content section*/
+#page {
+    width: 100%;
+    margin:0 auto;
+    padding: 0px;
+    max-width: 1200px;
+}
+/* Header */
+#site-title span {
+	position: absolute;
+        float: left;
+	right: 6.0em;	
+        top: 0.1em;
+}
+#site-description {
+	color: #7a7a7a;
+	font-size: 12px;
+        position: absolute;
+        top: 2.45em;
+        right: -15.0em;
+        margin-top: 0.5em;
+        font-style: italic;
+}
+
+/*Main Menu*/
+/*Gradient*/
+#access a:focus {
+	background: #efefef;
+}
+#access li:hover > a,
+#access a:focus {
+    background: #fcbb23; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(45deg,  #fcbb23 0%, #f9b95e 66%, #ff9d42 86%, #ff9532 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#fcbb23), color-stop(66%,#f9b95e), color-stop
+    (86%,#ff9d42), color-stop(100%,#ff9532)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbb23', endColorstr='#ff9532',GradientType=1 ); /* 
+    IE6-8 fallback on horizontal gradient */
+}
+/* Navigation */
+.current_page_item {
+    background: #fcbb23; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(45deg,  #fcbb23 0%, #f9b95e 66%, #ff9d42 86%, #ff9532 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#fcbb23), color-stop(66%,#f9b95e), color-stop
+    (86%,#ff9d42), color-stop(100%,#ff9532)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #fcbb23 0%,#f9b95e 66%,#ff9d42 86%,#ff9532 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcbb23', endColorstr='#ff9532',GradientType=1 ); /* 
+    IE6-8 fallback on horizontal gradient */    
+}
+/*Title*/
+.entry-title {
+    padding-top: 0px;
+}
+.singular .entry-title {
+color: #000;
+font-size: 28px;
+font-weight: bold;
+line-height: 34px;
+}
+.wp-caption .wp-caption-text {
+margin-bottom: 0.2em;
+padding: 5px 0 2px 20px;
+position: relative;
+font-family: Georgia, serif;
+font-size: 10px;
+}
+#banner-content {
+  height: 200px;
+  width: 1000px;
+}
+/*#access {
+    background-color: #113262;
+}*/
+nav#access{
+    background: #113262;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 97%
+}
+/*Search box*/
+#branding #searchform {
+	position: absolute;
+	top: 4.0em;
+	left: 7.6%;
+	text-align: right;
+        color: #efefef;
+        
+}
+/*Aside*/
+li {
+    list-style-type: none;
+}
+h3.widget-title{
+    background: #113262;
+    padding: 1.0em;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+}
+aside ul {
+    padding: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+#secondary{
+    margin-left: auto;
+    margin-right: 1em;
+}
+.content {
+    margin: 0px;
+    padding: 0px;
+}
+#content {
+    margin: 0 34% 0 7.6%;
+    width: 70.4%;
+}
+div#content article {
+    margin: 0px;
+    padding: 0px;
+}
+.comments-link, .sep, .cat-links {
+    display: none;
+}
+div#content article header.entry-header hgroup h3.entry-format { 
+	display: none;
+}
+
+/*Hide featured*/
+/*Pending*/
