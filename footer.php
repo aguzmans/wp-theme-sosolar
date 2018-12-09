@@ -25,7 +25,10 @@
 
 			<div id="site-generator">
 				<?php do_action( 'twentyeleven_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://www.abelworld.com/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"><?php printf( __( 'Copy right %s', 'twentyeleven' ), 'Abel Guzman 2015' ); ?></a>
+				<a href="<?php echo esc_url( __( 'http://www.abelworld.com/', 'twentyeleven' ) ); ?>"
+                   title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>">
+                    <?php printf( __( 'Copy right %s', 'twentyeleven' ), 'Abel Guzman 2011-2019' ); ?>
+                </a>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
