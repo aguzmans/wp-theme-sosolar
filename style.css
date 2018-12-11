@@ -128,6 +128,10 @@ nav#access{
 li {
     list-style-type: none;
 }
+div > h1 {
+    font-weight: 700;
+    font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+}
 h1 {
     font-weight: 700;
     font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
