@@ -32,7 +32,7 @@ body {
     width: 100%;
     margin:0 auto;
     padding: 0px;
-    max-width: 1200px;
+    max-width: 2000px;
 }
 /* Header */
 #site-title span {
@@ -110,10 +110,10 @@ font-size: 10px;
 }*/
 nav#access{
     background: #113262;
-    border-radius: 5px;
-    margin-left: 1em;
-    margin-right: 1em;
-    width: 97%
+    /*border-radius: 5px;*/
+    /*margin-left: 1em;*/
+    /*margin-right: 1em;*/
+    width: 100%
 }
 /*Search box*/
 #branding #searchform {
