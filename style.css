@@ -141,8 +141,8 @@ div > h2 {
 h3.widget-title{
     background: #113262;
     padding: 1.0em;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    /*border-top-left-radius: 5px;*/
+    /*border-top-right-radius: 5px;*/
     color: #fff;
 }
 aside ul {
@@ -157,6 +157,7 @@ aside ul {
     margin-right: 0;
     float: right;
     width: auto;
+    max-width: 18.8%;
 }
 .content {
     margin: 0px;
