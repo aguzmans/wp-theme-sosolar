@@ -157,7 +157,8 @@ aside ul {
     margin-right: 0;
     float: right;
     width: auto;
-    max-width: 18.8%;
+    max-width: 20%;
+    min-width: 15%;
 }
 .content {
     margin: 0px;
