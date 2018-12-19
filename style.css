@@ -297,8 +297,11 @@ div#content article header.entry-header hgroup h3.entry-format {
     #branding #searchform {
         top: 5.622em !important;
     }
-    
-    #secondary, #primary {
+
+    #secondary {
+        display: block;
+    }
+    #primary {
         display: block;
     }
 }
