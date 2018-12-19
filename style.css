@@ -8,7 +8,7 @@ Template:    twentyeleven
 Version:    0.1 
 */
 
-@import url("../twentyeleven/style.css");
+/*@import url("../twentyeleven/style.css");*/
 /* General */
 body, input, textarea {
 	font: 15px "Century Gothic", "New Century Schoolbook", serif;
