@@ -300,6 +300,9 @@ div#content article header.entry-header hgroup h3.entry-format {
     #secondary {
         display: none;
     }
+    #site-description {
+        right: 0.0em;
+    }
 }
 
 @media (max-width: 450px) {
