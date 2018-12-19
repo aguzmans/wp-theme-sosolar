@@ -185,7 +185,7 @@ div#content article header.entry-header hgroup h3.entry-format {
     body, input, textarea {
         font-size: 13px;
     }
-    body .hfeed  {
+    body, .hfeed, #branding {
         width: 100%;
         padding: 0px;
         margin: 0px;
