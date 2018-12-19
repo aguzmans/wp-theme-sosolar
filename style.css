@@ -286,7 +286,7 @@ div#content article header.entry-header hgroup h3.entry-format {
         left: 95%;
     }
     #content .gallery-columns-3 .gallery-item {
-        width: 31%;
+        width: 100%;
         padding-right: 2%;
     }
     #content .gallery-columns-3 .gallery-item img {
@@ -296,7 +296,7 @@ div#content article header.entry-header hgroup h3.entry-format {
 }
 @media (max-width: 450px) {
     #content .gallery-columns-2 .gallery-item {
-        width: 45%;
+        width: 100%;
         padding-right: 4%;
     }
     #content .gallery-columns-2 .gallery-item img {
