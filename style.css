@@ -295,7 +295,7 @@ div#content article header.entry-header hgroup h3.entry-format {
     }
     /* Make sure the logo and search form don't collide */
     #branding #searchform {
-        top: 5.625em !important;
+        top: 5.622em !important;
     }
 }
 @media (max-width: 450px) {
