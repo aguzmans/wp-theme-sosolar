@@ -293,6 +293,10 @@ div#content article header.entry-header hgroup h3.entry-format {
         width: 100%;
         height: auto;
     }
+    /* Make sure the logo and search form don't collide */
+    #branding #searchform {
+        top: 2.625em !important;
+    }    
 }
 @media (max-width: 450px) {
     #content .gallery-columns-2 .gallery-item {
@@ -318,3 +322,4 @@ div#content article header.entry-header hgroup h3.entry-format {
 
 
 
+/*searchform*/
