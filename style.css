@@ -185,6 +185,11 @@ div#content article header.entry-header hgroup h3.entry-format {
     body, input, textarea {
         font-size: 13px;
     }
+    body .hfeed  {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
     #site-title a {
         font-size: 24px;
     }
