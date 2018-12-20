@@ -317,6 +317,12 @@ div#content article header.entry-header hgroup h3.entry-format {
     #branding #searchform {
         display: none;
     }
+    #site-title {
+        display: block;
+    }
+    #site-description {
+        display: block;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -331,5 +337,11 @@ div#content article header.entry-header hgroup h3.entry-format {
     }
     #branding #searchform {
         display: none;
+    }
+    #site-title {
+        display: block;
+    }
+    #site-description {
+        display: block;
     }
 }
