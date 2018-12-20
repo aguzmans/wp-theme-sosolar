@@ -336,7 +336,7 @@ div#content article header.entry-header hgroup h3.entry-format {
         margin-top: 0.5em;
         font-style: italic;
     }
-    div > pre {
+    pre {
         background: beige;
     }
 }
