@@ -178,6 +178,9 @@ div#content article {
 div#content article header.entry-header hgroup h3.entry-format { 
 	display: none;
 }
+pre {
+    background: #ccc;
+}
 
 /*Here small screens*/
 @media (max-width: 650px) {
@@ -335,9 +338,6 @@ div#content article header.entry-header hgroup h3.entry-format {
         top: 2.45em;
         margin-top: 0.5em;
         font-style: italic;
-    }
-    pre {
-        background: #f9b95e;
     }
 }
 
