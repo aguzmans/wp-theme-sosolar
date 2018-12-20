@@ -363,15 +363,13 @@ pre {
     #site-title a {
         font-size: 14px;
     }
-    #site-description {
-        font-size: 8px;
-    }
+
     #site-description {
         color: #7a7a7a;
-        font-size: 12px;
+        font-size: 6px;
         position: relative;
         top: 2.45em;
-        margin-top: 0.5em;
+        margin-top: 0em;
         font-style: italic;
     }
 }
