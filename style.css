@@ -323,6 +323,12 @@ div#content article header.entry-header hgroup h3.entry-format {
     #site-description {
         display: block;
     }
+    #site-title a {
+        font-size: 18px;
+    }
+    #site-description {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -343,5 +349,11 @@ div#content article header.entry-header hgroup h3.entry-format {
     }
     #site-description {
         display: block;
+    }
+    #site-title a {
+        font-size: 14px;
+    }
+    #site-description {
+        font-size: 8px;
     }
 }
