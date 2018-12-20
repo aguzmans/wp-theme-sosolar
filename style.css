@@ -363,7 +363,38 @@ pre {
     #site-title a {
         font-size: 14px;
     }
+    #site-description {
+        color: #7a7a7a;
+        font-size: 6px;
+        position: relative;
+        top: 0em;
+        margin-top: 0em;
+        font-style: italic;
+    }
+}
 
+@media only screen and (max-device-width: 320px) {
+    body {
+        padding: 0;
+    }
+    #page {
+        margin-top: 0;
+    }
+    #branding {
+        border-top: none;
+    }
+    #branding #searchform {
+        display: none;
+    }
+    #site-title {
+        display: block;
+    }
+    #site-description {
+        display: block;
+    }
+    #site-title a {
+        font-size: 14px;
+    }
     #site-description {
         color: #7a7a7a;
         font-size: 6px;
