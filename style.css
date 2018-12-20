@@ -231,9 +231,9 @@ div#content article header.entry-header hgroup h3.entry-format {
         margin-right: 0;
     }
     /* Make sure the logo and search form don't collide */
-    #branding #searchform {
-        top: 1.625em !important;
-    }
+    /*#branding #searchform {*/
+        /*top: 1.625em !important;*/
+    /*}*/
     /* Floated content doesn't work well at this size */
     .alignleft,
     .alignright {
@@ -296,7 +296,6 @@ div#content article header.entry-header hgroup h3.entry-format {
     #branding #searchform {
         top: 5.622em !important;
     }
-
     #secondary {
         display: none;
     }
@@ -355,5 +354,15 @@ div#content article header.entry-header hgroup h3.entry-format {
     }
     #site-description {
         font-size: 8px;
+    }
+    #site-description {
+        color: #7a7a7a;
+        font-size: 12px;
+        position: absolute;
+        top: 2.45em;
+        /*right: -15.0em;*/
+        tel
+        margin-top: 0.5em;
+        font-style: italic;
     }
 }
