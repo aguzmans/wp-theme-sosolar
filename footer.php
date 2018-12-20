@@ -33,13 +33,13 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131239038-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131224900-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-131239038-1');
+    gtag('config', 'UA-131224900-1');
 </script>
 
 <?php wp_footer(); ?>
