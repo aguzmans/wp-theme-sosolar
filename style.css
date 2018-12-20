@@ -328,6 +328,14 @@ div#content article header.entry-header hgroup h3.entry-format {
     #site-description {
         font-size: 10px;
     }
+    #site-description {
+        color: #7a7a7a;
+        font-size: 12px;
+        position: relative;
+        top: 2.45em;
+        margin-top: 0.5em;
+        font-style: italic;
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -358,10 +366,8 @@ div#content article header.entry-header hgroup h3.entry-format {
     #site-description {
         color: #7a7a7a;
         font-size: 12px;
-        position: absolute;
+        position: relative;
         top: 2.45em;
-        /*right: -15.0em;*/
-        tel
         margin-top: 0.5em;
         font-style: italic;
     }
