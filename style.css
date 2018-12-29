@@ -183,7 +183,7 @@ pre {
 }
 
 /*Here small screens*/
-@media (max-width: 650px) {
+@media (min-device-width: 480px) and (max-width: 650px) {
     body, input, textarea {
         font-size: 13px;
     }
@@ -307,39 +307,39 @@ pre {
     }
 }
 
-@media (max-width: 450px) {
-    #content .gallery-columns-2 .gallery-item {
-        width: 100%;
-        padding-right: 4%;
-    }
-    #content .gallery-columns-2 .gallery-item img {
-        width: 100%;
-        height: auto;
-    }
-    #branding #searchform {
-        display: none;
-    }
-    #site-title {
-        display: block;
-    }
-    #site-description {
-        display: block;
-    }
-    #site-title a {
-        font-size: 18px;
-    }
-    #site-description {
-        font-size: 10px;
-    }
-    #site-description {
-        color: #7a7a7a;
-        font-size: 12px;
-        position: relative;
-        top: 2.45em;
-        margin-top: 0.5em;
-        font-style: italic;
-    }
-}
+/*@media (max-width: 450px) {*/
+    /*#content .gallery-columns-2 .gallery-item {*/
+        /*width: 100%;*/
+        /*padding-right: 4%;*/
+    /*}*/
+    /*#content .gallery-columns-2 .gallery-item img {*/
+        /*width: 100%;*/
+        /*height: auto;*/
+    /*}*/
+    /*#branding #searchform {*/
+        /*display: none;*/
+    /*}*/
+    /*#site-title {*/
+        /*display: block;*/
+    /*}*/
+    /*#site-description {*/
+        /*display: block;*/
+    /*}*/
+    /*#site-title a {*/
+        /*font-size: 18px;*/
+    /*}*/
+    /*#site-description {*/
+        /*font-size: 10px;*/
+    /*}*/
+    /*#site-description {*/
+        /*color: #7a7a7a;*/
+        /*font-size: 12px;*/
+        /*position: relative;*/
+        /*top: 2.45em;*/
+        /*margin-top: 0.5em;*/
+        /*font-style: italic;*/
+    /*}*/
+/*}*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     body {
@@ -389,9 +389,9 @@ pre {
     #site-title {
         display: block;
     }
-    #site-description {
-        display: block;
-    }
+    /*#site-description {*/
+        /*display: block;*/
+    /*}*/
     #site-title a {
         font-size: 14px;
     }
